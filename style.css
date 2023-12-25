@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+*,*::before,*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,8 +6,8 @@
 }
 
 :root {
-    --colorDark1: #5761B2;
-    --colorDark2: #6770b5;
+    --colorDark1: #112D4E;
+    --colorDark2: #3F72AF;
     --colorLight1: #DBE2EF;
     --colorLight2: #F9F7F7;
 }
@@ -19,7 +17,7 @@ body {
     min-height: 100vh;
     color: var(--colorLight2);
     background-color: #112d4e;
-    background-image: linear-gradient(160deg, #5761B2 0%, #6770b5 100%);
+    background-image: linear-gradient(160deg, #112d4e 0%, #3f72af 100%);
 }
 
 h1 {
@@ -47,7 +45,7 @@ h1 {
 }
 
 .tab.current-tab {
-    background-color: rgba(219, 226, 239, 0.5);
+    background-color:rgba(219, 226, 239, 0.5);
     border-radius: 4px;
 }
 
@@ -93,7 +91,7 @@ h1 {
     display: none;
 }
 
-.grant-location-container.active {
+.grant-location-container.active{
     display: flex;
 }
 
@@ -201,7 +199,7 @@ h1 {
 .parameter {
     width: 30%;
     max-width: 200px;
-    background-color: rgba(219, 226, 239, 0.5);
+    background-color:rgba(219, 226, 239, 0.5);
     border-radius: 5px;
     padding: 1rem;
     display: flex;
@@ -239,7 +237,7 @@ h1 {
     }
 }
 
-.form-container {
+.form-container{
     width: 90%;
     max-width: 550px;
     margin: 0 auto;
@@ -259,7 +257,7 @@ h1 {
     width: calc(100% - 80px);
     height: 40px;
     padding: 0 20px;
-    background-color: rgba(219, 226, 239, 0.5);
+    background-color:rgba(219, 226, 239, 0.5);
     border-radius: 10px;
 }
 
@@ -283,3 +281,58 @@ h1 {
 .form-container .btn img {
     object-fit: contain;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
